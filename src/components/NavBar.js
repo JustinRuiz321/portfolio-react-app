@@ -15,6 +15,16 @@ function NavBar({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          href="#work"
+          onClick={() => handlePageChange('Work')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
+        >
+          Work Experience
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}
           className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
