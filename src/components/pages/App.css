@@ -1,6 +1,7 @@
-h1 {
+h1 , h5 {
     text-align: center;
 }
+
 
 p {
     margin-left: 75px;
@@ -37,3 +38,9 @@ a:link {
 a:hover {
     font-size: 25px;
 }
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }

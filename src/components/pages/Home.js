@@ -3,7 +3,7 @@ import Myself from './Myself.png';
 
 export default function Home() {
   return (
-    <div class="aboutMe">
+    <div className="aboutMe">
       <h1>About Me</h1>
       <p>
         I am a 24 year old male by the name of Justin Ruiz. I'm located in Bergen County, New Jersey and to be more specific, Garfield, NJ. 
@@ -32,7 +32,7 @@ export default function Home() {
           With that being said, I'd love to get to know you a little more so please be sure to contact me by visiting the contact page above! I will leave you with a 
           nice image of the person you are reading about, me!
       </p>
-      <img src={Myself} alt="Myself" class ="myself"></img>
+      <img src={Myself} alt="Myself" className="myself"></img>
     </div>
   );
 }
