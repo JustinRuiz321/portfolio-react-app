@@ -17,6 +17,23 @@ li {
 html {
     height: 100%;
 }
-body {
+.aboutMe , body {
     background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.myself {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 250px;
+    height: 300px;
+}
+
+a:link {
+    color:white;
+}
+
+a:hover {
+    font-size: 25px;
 }
