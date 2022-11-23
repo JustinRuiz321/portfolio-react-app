@@ -1,4 +1,4 @@
-h1 , h5 {
+h1 , h4 , h5 {
     text-align: center;
 }
 
@@ -60,3 +60,8 @@ img {
     display: table;
 }
 
+.border {
+    border: 2px;
+    border-style: double;
+    border-radius: 10px;
+}
